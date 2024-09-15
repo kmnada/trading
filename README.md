@@ -29,3 +29,10 @@ The application can be accessed at http://localhost:3000
 ### 3. To stop the container
 
 `sudo docker-compose down`
+
+### Points for improvement:
+- **eslint**
+- **unit test**
+- **move types to different file**
+- **better error handling**
+- **persist data**
