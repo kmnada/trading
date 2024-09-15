@@ -67,7 +67,7 @@ const App = () => {
   useEffect(() => {
     if(!selectedSymbol) return;
 
-    console.log(`Switched to smbol ${selectedSymbol.value}`);
+    console.log(`Switched to symbol ${selectedSymbol.value}`);
 
     const ws = new WebSocket(WEBSOCKET_URL);
 
